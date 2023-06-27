@@ -106,8 +106,7 @@ function Machine() {
                 title="Tweet this quote!"
                 target="_blank"
                 rel="noopener noreferrer"
-                href={`https://twitter.com/intent/tweet?hashtags=quotes&amp;text=${encodeURIComponent(
-                  `"${currentQuote?.quote}" ${currentQuote?.author}`
+                href={`https://twitter.com/intent/tweet?hashtags=quotes&text=${encodeURIComponent(`"${currentQuote?.quote}"\n\n - ${currentQuote?.author}\n\n`
                 )}`}
                 style={{ backgroundColor }}
               >
