@@ -2,18 +2,17 @@ import React, { useEffect, useState } from "react";
 import { CSSTransition, SwitchTransition } from "react-transition-group";
 
 const colors = [
-  "#16a085",
-  "#27ae60",
-  "#2c3e50",
-  "#f39c12",
-  "#e74c3c",
-  "#9b59b6",
-  "#FB6964",
-  "#342224",
-  "#472E32",
-  "#BDBB99",
-  "#77B1A9",
-  "#73A857",
+  "#000000",
+  "#181818",
+  "#2e2e2e",
+  "#424242",
+  "#575757",
+  "#6e6e6e",
+  "#868686",
+  "#9d9d9d",
+  "#3e3e3e",
+  "#313131",
+  "#111111",
 ];
 
 const getRandomIndex = (length) => Math.floor(length * Math.random());
@@ -95,7 +94,7 @@ function Machine() {
                 }
               >
                 <div className="quote-author text-end">
-                  - <span id="author">{currentQuote?.author}</span>
+                  <span id="author">- {currentQuote?.author}</span>
                 </div>
               </CSSTransition>
             </SwitchTransition>

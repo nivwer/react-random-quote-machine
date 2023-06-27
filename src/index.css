@@ -4,7 +4,7 @@
 
 body {
     font-size: 15px;
-    background-color: #020112;
+    background-color: #000000; 
     font-family: 'Nanum Gothic', sans-serif;
 }
 
@@ -103,8 +103,8 @@ body {
     transition: background 1000ms ease;
 }
 
-#text,
 #author,
+#text,
 .bi-chat-right-quote-fill {
     transition: color 1000ms ease;
 }
