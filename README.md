@@ -1,6 +1,6 @@
 # Random Quote Machine
 
-Project for FCC using React.
+Project for FCC using ReactJS.
 
 View: <a href="https://nivwer.github.io/react-random-quote-machine/">https://nivwer.github.io/react-random-quote-machine/</a> 
 
